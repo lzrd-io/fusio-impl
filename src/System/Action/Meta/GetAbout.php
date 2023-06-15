@@ -162,10 +162,10 @@ class GetAbout implements ActionInterface
             'href' => $baseUrl . 'authorization/whoami',
         ];
 
-        $links[] = [
-            'rel' => 'about',
-            'href' => 'https://www.fusio-project.org',
-        ];
+        // $links[] = [
+        //     'rel' => 'about',
+        //     'href' => 'https://www.fusio-project.org',
+        // ];
 
         return $links;
     }
