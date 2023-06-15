@@ -14,6 +14,12 @@
     "tests": "@php vendor/phpunit/phpunit/phpunit --configuration phpunit.xml tests",
     "psalm": "@php vendor/vimeo/psalm/psalm"
   },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/lzrd-io/fusio-adapter-sql"
+    }
+  ],
   "require": {
     "php": ">=8.1",
     "psx/framework": "^7.1",
@@ -28,6 +34,7 @@
     "fusio/adapter-php": "^6.0",
     "fusio/adapter-smtp": "^6.0",
     "fusio/adapter-soap": "^6.0",
+    "fusio/adapter-sql": "^6.0",
     "fusio/adapter-util": "^6.0",
     "fusio/adapter-cli": "^6.0",
     "fusio/adapter-fcgi": "^6.0",
